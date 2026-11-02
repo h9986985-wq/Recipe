@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>رحلة البحث عن الناقد المثالي</title>
+<style>
+:root{--green:#263c39;--sage:#718c78;--cream:#f4efe6;--ink:#26332f;--muted:#6e7772;--line:#e5e1d8}
+*{box-sizing:border-box}body{margin:0;background:linear-gradient(135deg,#f6f0e7,#e9eee8);font-family:Tahoma,Arial,sans-serif;color:var(--ink);min-height:100vh;padding:24px}
+.wrap{max-width:900px;margin:auto}.hero{background:var(--green);color:white;border-radius:24px;padding:28px;text-align:center;box-shadow:0 12px 35px #20352c22}
+.kicker{color:#e8d8b9;font-size:13px;letter-spacing:1px}.hero h1{font-size:clamp(26px,5vw,42px);margin:12px 0}.hero p{color:#e6e8df;line-height:1.8;margin:0}
+.book{font-size:48px;margin-bottom:8px}.panel{background:#fff;border:1px solid var(--line);border-radius:22px;padding:24px;margin-top:20px;box-shadow:0 8px 25px #263c390c}
+h2{margin:0 0 8px;font-size:25px}.sub{color:var(--muted);margin:0 0 20px;line-height:1.8}
+.maproot{background:var(--green);color:white;border-radius:16px;text-align:center;padding:16px;font-size:22px;font-weight:bold;margin:18px auto;max-width:360px}
+.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}
+.trait{border:1px solid var(--line);border-radius:17px;padding:17px;background:#fcfbf8;min-height:150px}
+.trait .num{display:inline-grid;place-items:center;background:#e7eee7;color:var(--green);width:30px;height:30px;border-radius:50%;font-weight:bold}
+.trait h3{font-size:17px;margin:10px 0 8px;color:var(--green)}.trait p{font-size:14px;line-height:1.8;margin:0;color:#59635e}
+.note{background:#f3f5f0;border-right:4px solid var(--sage);padding:14px 16px;border-radius:10px;line-height:1.8;margin-top:16px}
+button{font:inherit;border:0;border-radius:13px;padding:14px 20px;cursor:pointer;font-weight:bold;background:var(--green);color:white;transition:.15s}
+button:hover{filter:brightness(1.12);transform:translateY(-1px)}button:disabled{opacity:.45;cursor:not-allowed;transform:none}
+.primary{width:100%;margin-top:20px}.topline{display:flex;justify-content:space-between;align-items:center;gap:12px;margin-bottom:16px}.tag{background:#e9efe9;color:var(--green);padding:7px 12px;border-radius:99px;font-size:13px;font-weight:bold}
+.progress{height:8px;background:#edf0eb;border-radius:99px;overflow:hidden;margin:14px 0 22px}.bar{height:100%;background:var(--sage);width:25%;transition:width .2s}
+.question{font-size:21px;line-height:1.7;margin:0 0 18px}.options{display:grid;gap:10px}.option{background:#fff;color:var(--ink);border:1px solid var(--line);text-align:right;width:100%;font-weight:normal;line-height:1.6}.option.selected{border:2px solid var(--sage);background:#f1f5f0}.option.correct{border:2px solid #4d8b62;background:#eff7f0}.option.wrong{border:2px solid #c78a70;background:#fff5f0}
+.feedback{margin-top:16px;border-radius:13px;background:#f2f4ef;padding:14px;line-height:1.8}.actions{display:flex;gap:10px;margin-top:16px}.actions button{flex:1}
+.scoreline{display:flex;justify-content:space-between;color:var(--muted);font-size:14px;margin-top:16px}
+.result{text-align:center;background:var(--green);color:white;border-radius:18px;padding:28px}.result .trophy{font-size:46px}.result .score{font-size:40px;color:#ead7a8;font-weight:bold;margin:10px}
+.hidden{display:none}.footer{text-align:center;color:var(--muted);font-size:12px;margin:18px 0}
+@media(max-width:600px){body{padding:12px}.panel{padding:17px}.grid{grid-template-columns:1fr}.trait{min-height:unset}.question{font-size:18px}.actions{flex-direction:column}}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header class="hero">
+ <div class="book">📚</div><div class="kicker">لعبة تعليمية • اللغة العربية</div>
+ <h1>رحلة البحث عن الناقد المثالي</h1>
+ <p>اكتشف صفات الناقد الأدبي، واجتز التحديات لتصل إلى لقب الناقد المتميز!</p>
+</header>
+
+<section class="panel" id="map">
+ <h2>الصفحة الأولى: خريطة المفاهيم</h2>
+ <p class="sub">صفات الناقد الأدبي أربع صفات أساسية، تعرّف عليها قبل بدء التحدي.</p>
+ <div class="maproot">✦ صفات الناقد الأدبي ✦</div>
+ <div class="grid">
+  <article class="trait"><span class="num">١</span><h3>الموضوعية والإنصاف</h3><p>يكبح جماح هواه الخاص، ولا يجعل ميوله الشخصية تؤثر في حكمه.</p></article>
+  <article class="trait"><span class="num">٢</span><h3>الخبرة الأدبية</h3><p>يمارس الأدب، ويتخصص في فهمه، ويدرس أساليب الأدباء.</p></article>
+  <article class="trait"><span class="num">٣</span><h3>الفهم العميق والحس المرهف</h3><p>يدرك أسرار الأدباء ومشاعرهم وعواطفهم، مستعينًا بفهمه العميق وكثرة تجاربه الأدبية.</p></article>
+  <article class="trait"><span class="num">٤</span><h3>المعرفة والثقافة والبصر الثاقب</h3><p>يمتلك معرفة وثقافة واسعتين ونظرة دقيقة تساعده على إصدار الحكم الصائب.</p></article>
+ </div>
+ <div class="note"><strong>تذكّر:</strong> الناقد الجيد يجمع بين الإنصاف والخبرة والفهم العميق والثقافة الواسعة.</div>
+ <button class="primary" onclick="startStage(1)">ابدأ المرحلة الأولى ←</button>
+</section>
+
+<section class="panel hidden" id="game">
+ <div class="topline"><span class="tag" id="stageTag">المرحلة الأولى</span><strong id="counter">السؤال ١ من ٤</strong></div>
+ <h2 id="stageTitle">اختبر معلوماتك</h2>
+ <div class="progress"><div class="bar" id="bar"></div></div>
+ <p class="question" id="question"></p>
+ <div class="options" id="options"></div>
+ <div id="feedback" class="feedback hidden"></div>
+ <div class="actions"><button id="check" disabled onclick="checkAnswer()">تحقّق من الإجابة</button><button id="next" class="hidden" onclick="nextQuestion()">السؤال التالي ←</button></div>
+ <div class="scoreline"><span>مجموع النقاط</span><strong id="score">٠ / ٨</strong></div>
+</section>
+
+<section class="panel hidden" id="finish">
+ <div class="result"><div class="trophy">🏆</div><h2>أحسنت! أنهيت الرحلة</h2><div class="score" id="finalScore">٠ / ٨</div><p id="resultText"></p></div>
+ <h2 style="margin-top:22px">تذكّر صفات الناقد الأربع</h2>
+ <ol style="line-height:2.1"><li>الموضوعية والإنصاف.</li><li>الخبرة الأدبية.</li><li>الفهم العميق والحس المرهف.</li><li>المعرفة والثقافة والبصر الثاقب.</li></ol>
+ <button class="primary" onclick="restart()">↻ أعد اللعبة من البداية</button>
+</section>
+<div class="footer">بالتوفيق 🌷 • تعلّم، فكّر، ثم اختر الإجابة</div>
+</div>
+<script>
+const stages=[
+[
+{q:"أي صفة تعني ألّا يجعل الناقد ميوله الشخصية تؤثر في حكمه؟",o:["الخبرة الأدبية","الموضوعية والإنصاف","المعرفة والثقافة"],a:1,w:"لأن الناقد يكبح جماح هواه الخاص حتى لا يجافي الصواب."},
+{q:"ما الذي يساعد الناقد على فهم أساليب الأدباء؟",o:["الخبرة الأدبية وممارسة الأدب","كثرة القراءة فقط","الاعتماد على رأي الآخرين"],a:0,w:"لأنه راض الأدب ومارسه وتخصص في فهمه."},
+{q:"أي صفة تساعد الناقد على إدراك مشاعر الأديب وسبر عواطفه؟",o:["البصر الثاقب","الإنصاف","الفهم العميق والحس المرهف"],a:2,w:"الفهم العميق والحس المرهف يساعدانه على إدراك مشاعر الأدباء وعواطفهم."},
+{q:"ما الذي يعين الناقد على إصدار الحكم الصائب؟",o:["الهوى الشخصي","المعرفة والثقافة والبصر الثاقب","تقليد النقاد الآخرين"],a:1,w:"المعرفة والثقافة والبصر الثاقب خير معين له على إصدار الحكم الصائب."}
+],
+[
+{q:"ناقد أعجبته قصيدة، فمدحها رغم وجود أخطاء واضحة فيها بسبب إعجابه بالشاعر. ما الصفة التي افتقدها؟",o:["الخبرة الأدبية","الموضوعية والإنصاف","المعرفة والثقافة"],a:1,w:"لأنه سمح لهواه الشخصي بالتأثير في حكمه."},
+{q:"ناقد درس أساليب الشعراء ومارس الأدب سنوات طويلة. ما الصفة التي يمتلكها؟",o:["الخبرة الأدبية","الحس المرهف","الإنصاف"],a:0,w:"دراسة الأدب وممارسته والتخصص في فهمه من صفات الناقد الخبير."},
+{q:"استطاع ناقد فهم الحزن الذي يشعر به الشاعر من خلال أبياته. ما الصفة التي ساعدته؟",o:["الموضوعية","المعرفة العامة","الفهم العميق والحس المرهف"],a:2,w:"لأنه أدرك مشاعر الأديب ونفذ إلى عواطفه."},
+{q:"ناقد يمتلك ثقافة واسعة ونظرة دقيقة، ويستطيع إصدار أحكام سليمة. ما الصفة المقصودة؟",o:["الخبرة الأدبية فقط","المعرفة والثقافة والبصر الثاقب","الهوى الشخصي"],a:1,w:"هذه الصفات مجتمعة تعينه على إصدار الحكم الصائب."}
+]];
+let stage=0,index=0,selected=-1,score=0,locked=false;
+const $=id=>document.getElementById(id);
+function startStage(n){stage=n-1;index=0;selected=-1;locked=false;$("map").classList.add("hidden");$("finish").classList.add("hidden");$("game").classList.remove("hidden");render()}
+function render(){
+ const q=stages[stage][index];$("stageTag").textContent=stage===0?"المرحلة الأولى":"المرحلة الثانية";$("stageTitle").textContent=stage===0?"اختبر معلوماتك":"مواقف الناقد الذكي";$("counter").textContent=`السؤال ${index+1} من ٤`;$("bar").style.width=((index+1)*25)+"%";$("question").textContent=q.q;$("options").innerHTML="";$("feedback").classList.add("hidden");$("check").classList.remove("hidden");$("next").classList.add("hidden");$("check").disabled=true;locked=false;selected=-1;
+ q.o.forEach((v,i)=>{const b=document.createElement("button");b.className="option";b.textContent=["أ) ","ب) ","ج) "][i]+v;b.onclick=()=>{if(locked)return;selected=i;document.querySelectorAll(".option").forEach(x=>x.classList.remove("selected"));b.classList.add("selected");$("check").disabled=false};$("options").appendChild(b)});
+ $("score").textContent=score+" / ٨";
+}
+function checkAnswer(){if(selected<0||locked)return;locked=true;const q=stages[stage][index];const opts=[...document.querySelectorAll(".option")];opts[q.a].classList.add("correct");if(selected===q.a)score++;else opts[selected].classList.add("wrong");$("feedback").textContent=(selected===q.a?"إجابة صحيحة! 🌟 ":"حاول تذكّر هذه المعلومة: ")+q.w;$("feedback").classList.remove("hidden");$("check").classList.add("hidden");$("next").classList.remove("hidden");$("next").textContent=index===3?(stage===0?"انتقل إلى المرحلة الثانية ←":"اعرض النتيجة ←"):"السؤال التالي ←";$("score").textContent=score+" / ٨"}
+function nextQuestion(){if(index<3){index++;render()}else if(stage===0){startStage(2)}else{showFinish()}}
+function showFinish(){$("game").classList.add("hidden");$("finish").classList.remove("hidden");$("finalScore").textContent=score+" / ٨";$("resultText").textContent=score===8?"ممتاز! أتقنت صفات الناقد الأدبي كلها.":score>=5?"عمل رائع! لديك فهم جيد لصفات الناقد.":"محاولة جميلة! راجع خريطة المفاهيم وحاول مجددًا."}
+function restart(){stage=0;index=0;score=0;$("finish").classList.add("hidden");$("map").classList.remove("hidden")}
+</script>
+</body>
+</html>
